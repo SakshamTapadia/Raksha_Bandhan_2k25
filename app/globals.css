@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -43,11 +45,11 @@
 
 @layer utilities {
   .font-dancing {
-    font-family: var(--font-dancing-script);
+    font-family: 'Dancing Script', cursive;
   }
   
   .font-poppins {
-    font-family: var(--font-poppins);
+    font-family: 'Poppins', sans-serif;
   }
 }
 

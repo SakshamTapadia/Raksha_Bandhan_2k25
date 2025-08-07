@@ -1,21 +1,10 @@
 import type { Metadata } from 'next'
-import { Dancing_Script, Poppins } from 'next/font/google'
 import './globals.css'
-
-const dancingScript = Dancing_Script({ 
-  subsets: ['latin'],
-  variable: '--font-dancing-script'
-})
-
-const poppins = Poppins({ 
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-poppins'
-})
 
 export const metadata: Metadata = {
   title: 'Happy Raksha Bandhan - For My Sister',
   description: 'A heartfelt Raksha Bandhan message for my beloved sister',
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -25,7 +14,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${dancingScript.variable} ${poppins.variable} font-sans`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" 
+          rel="stylesheet" 
+        />
+      </head>
+      <body className="font-sans">
         {children}
       </body>
     </html>
