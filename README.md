@@ -51,30 +51,35 @@ A beautiful, interactive website created with love for Raksha Bandhan, celebrati
 - **TypeScript**: Full type safety
 
 ## 📁 Project Structure
-
-\`\`\`
-├── app/
-│   ├── layout.tsx          # Root layout with fonts
-│   ├── page.tsx            # Main page component
-│   └── globals.css         # Global styles and animations
-├── components/
-│   ├── hero-section.tsx    # Landing hero with animations
-│   ├── message-box.tsx     # Typewriter letter animation
-│   ├── gallery.tsx         # Photo gallery with lightbox
-│   ├── video-section.tsx   # Video recording feature
-│   ├── rakhi-designer.tsx  # Interactive rakhi designer
-│   ├── quote.tsx           # Inspirational quotes
-│   ├── closing-section.tsx # Final message section
-│   ├── footer.tsx          # Website footer
-│   └── audio-player.tsx    # Background music player
-├── hooks/
-│   └── use-scroll-animation.ts # Custom scroll animation hook
-├── public/
-│   ├── animated-rakhi-*.png    # Rakhi images
-│   └── itni-si-khushi.mp3     # Background music
-└── lib/
-    └── utils.ts            # Utility functions
-\`\`\`
+```
+└── sakshamtapadia-raksha_bandhan_2k25/
+    ├── README.md
+    ├── components.json
+    ├── next.config.mjs
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tailwind.config.ts
+    ├── tsconfig.json
+    ├── .eslintrc.json
+    ├── app/
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── components/
+    │   ├── audio-player.tsx
+    │   ├── closing-section.tsx
+    │   ├── footer.tsx
+    │   ├── gallery.tsx
+    │   ├── hero-section.tsx
+    │   ├── message-box.tsx
+    │   ├── quote.tsx
+    │   ├── rakhi-designer.tsx
+    │   └── video-section.tsx
+    ├── hooks/
+    │   └── use-scroll-animation.ts
+    └── lib/
+        └── utils.ts
+```
 
 ## 🚀 Getting Started
 
